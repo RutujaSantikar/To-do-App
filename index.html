@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do App</title>
+
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <div class="container">
+        <h2>To-Do App</h2>
+
+        <div class="type">
+          <input type="text" placeholder="Your new to-do.." id="item" />
+          <!-- <input type="submit" placeholder="Add"> -->
+          <button class="btn-tab" id="btntab">Add</button>
+        </div>
+        <ul id="todo-items">
+          <li class="added-todo">
+            Reading
+            <button class="delete-item"><i class="fas fa-trash"></i></button>
+          </li>
+
+          <li class="added-todo">
+            Cooking
+            <button class="delete-item"><i class="fas fa-trash"></i></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

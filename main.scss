@@ -1,0 +1,68 @@
+
+
+body{
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    font-family: 'Prompt',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+h2{
+    color: white;
+}
+.container{
+text-align: center;
+width: 400px;
+
+    h2{
+        font-weight: bold;
+    }
+
+    input{
+    
+        padding: 10px;
+      width: 220px;
+      border: none;
+      font-family: 'Prompt',sans-serif;
+
+    
+    }
+    .btn-tab{
+
+        border: none;
+        background-color:#B06AB3;
+        color: white;
+        font-size: 15px;
+        font-family: 'Prompt',sans-serif;
+        border-radius: 3px;
+        padding: 10px 15px 10px 15px;
+    }
+    ul{
+        li{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: white;
+            padding: 4px;
+            border-left: 5px solid #ffeb34;
+            border-radius: 5px;
+            margin: 8px;
+
+            .fas{
+                 color:#4568DC;
+            }
+            button{
+                background-color:white;
+                border: none;
+            }
+        }
+    }
+}
