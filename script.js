@@ -26,12 +26,17 @@ function addTodo(e) {
   todoList.appendChild(li);
 }
 // remove item
-const trashButton = document.querySelectorAll("i");
 
-  for(let i=0; i<trashButton.length; i++){
- trashButton[i].addEventListener('click',()=>{
+const trashButton = document.querySelectorAll(".delete-item");
 
-  trashButton[i].parentElement.style.opacity=0;
- })
+for (let i = 0; i < trashButton.length; i++) {
+  trashButton[i].addEventListener("click", () => {
+    removeItem(i);
+  });
+}
+function removeItem(i) {
+  console.log("callled", i);
+  const lists = document.querySelectorAll(".added-todo");
 
-  }
+  lists[i].remove();
+}
