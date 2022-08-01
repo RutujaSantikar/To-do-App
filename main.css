@@ -1,11 +1,11 @@
 body {
-  background: #4568DC;
+  background: #4568dc;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#B06AB3), to(#4568DC));
-  background: linear-gradient(to right, #B06AB3, #4568DC);
+  background: -webkit-gradient(linear, left top, right top, from(#b06ab3), to(#4568dc));
+  background: linear-gradient(to right, #b06ab3, #4568dc);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family: 'Prompt',sans-serif;
+  font-family: "Prompt", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,17 +32,20 @@ h2 {
 
 .container input {
   padding: 10px;
-  width: 220px;
+  width: 52%;
+  border-radius: 3px;
+  outline: none;
   border: none;
-  font-family: 'Prompt',sans-serif;
+  font-family: "Prompt", sans-serif;
+  font-size: 18px;
 }
 
 .container .btn-tab {
   border: none;
-  background-color: #B06AB3;
+  background-color: #b06ab3;
   color: white;
   font-size: 15px;
-  font-family: 'Prompt',sans-serif;
+  font-family: "Prompt", sans-serif;
   border-radius: 3px;
   padding: 10px 15px 10px 15px;
 }
@@ -60,6 +63,7 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: white;
+  font-size: 18px;
   padding: 4px;
   border-left: 5px solid #ffeb34;
   border-radius: 5px;
@@ -67,7 +71,7 @@ h2 {
 }
 
 .container ul li .fas {
-  color: #4568DC;
+  color: #4568dc;
 }
 
 .container ul li button {
